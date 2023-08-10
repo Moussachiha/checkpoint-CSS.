@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+  position: relative;
+}
+nav{
+display: flex; 
+ background-color: #607993;
+}
+ul li :hover{
+    color: goldenrod;
+}
+h1{ font-size: 40px;}
+ul{
+    display: flex;
+    margin-left: 70%;
+}
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s; 
+} 
+h2 {
+    font-size: 25px;
+    color: white;
+    margin: 10px 10px 10px 20px;
+}
+footer h3{
+    color:goldenrod;
+}
+footer p {
+     font-size: 20px;
+    float: right;
+    color:goldenrod;
+    margin-top: 6%;
+}
+
+footer {
+    display: block;
+    background-color: #353535;
+}
+.y {
+    width: 40% ;
+    display:flex;
+    justify-content:space-around;
+    justify-items:center;
+    margin: 0% 0% 0% 33%;
+    position:absolute;
+    bottom: 10px;
+}
+footer div a img:hover{
+    transition: 0.3s;
+    
+    transform: rotate(360deg);
+}
+
+body {
+    display: block;
+    
+    height: auto;
+    width: auto;
+    background-color: #2F375B 
+}
+.cadre{
+    border: 2px solid black;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+    padding: 0px 0px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 60px;
+}
+a:hover{
+    
+    cursor: pointer;
+    color: goldenrod;
+}
+#bouton a{  
+border-radius: 5px ;
+display: inline-block;
+padding: 0px 0px;
+border :1px solid white;
+text-decoration: none;
+text-align: center;
+font-size: x-large;
+margin: 20px;
+
+}
+h6{
+    float: right;
+}
+body{
+ 
+    background-color: #99C5D2;
+}
+.tri {
+   display: inline-flex;
+margin: 50px;
+
+    justify-content:space-evenly;
+}
+.stylecadre{ 
+    text-align: center;
+    background-color: #2F375B;
+    margin: 0px ;
+    padding:0px ;
+    height: max-content;
+
+}
+.styletext {
+    text-align: center;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 26px;
+    font-family: cursive;
+   
+
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+h6,a{ color: white;}
